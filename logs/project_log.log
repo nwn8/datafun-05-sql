@@ -1,0 +1,8 @@
+2025-02-10 13:10:44.060 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-10 13:10:44.062 | INFO     | __main__:main:38 - Starting database setup...
+2025-02-10 13:10:44.063 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-10 13:10:44.064 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-02-10 13:10:44.075 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-02-10 13:10:44.085 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-02-10 13:10:44.086 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-02-10 13:10:44.086 | INFO     | __main__:main:65 - Database connection closed.

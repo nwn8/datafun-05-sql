@@ -15,7 +15,7 @@ Features:
 import pathlib
 
 # Imports from external packages
-from loguru import logger
+from loguru import logger 
 
 # Get this file name without the extension
 CURRENT_SCRIPT = pathlib.Path(__file__).stem
