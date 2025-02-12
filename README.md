@@ -5,12 +5,16 @@ This is the repo for Module 5.   This will explore using SQL and Python to creat
 
 # Project Description
 
-This project drops all tables in a database.  Then creates tables.  Then inserts records.
+Test Project: This project drops all tables in a database.  Then creates tables.  Then inserts records.
+
+Final Project:  
 
 
 # How to Run
 
-Project is in db01_setup.py
+Test Project is in db01_setup.py.   
+
+Final Project for Module 5 is in create_database.py 
 
 
 # Credits

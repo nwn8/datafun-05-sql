@@ -130,3 +130,6 @@ seaborn     # built on top of matplotlib
 
 # general-purpose interactivity library
 ipywidgets  
+
+#pandas
+pandas
