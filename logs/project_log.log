@@ -21,3 +21,185 @@
 2025-02-13 08:33:54.974 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
 2025-02-13 08:33:54.974 | INFO     | __main__:main:59 - Delete execution completed successfully.
 2025-02-13 08:33:54.974 | INFO     | __main__:main:64 - Database connection closed.
+2025-02-13 11:22:59.309 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:22:59.310 | INFO     | __main__:main:42 - Starting  queries execution...
+2025-02-13 11:22:59.312 | INFO     | __main__:main:58 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:22:59.312 | ERROR    | __main__:execute_sql_file:35 - Failed to execute C:\Projects\datafun-05-sql\sql_queries\query_aggregation.sql: no such column: year_published
+2025-02-13 11:22:59.313 | ERROR    | __main__:main:66 - Error during feature queries execution: no such column: year_published
+2025-02-13 11:22:59.313 | INFO     | __main__:main:69 - Database connection closed.
+2025-02-13 11:28:14.209 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:28:14.210 | INFO     | __main__:main:42 - Starting  queries execution...
+2025-02-13 11:28:14.211 | INFO     | __main__:main:58 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:28:14.212 | ERROR    | __main__:execute_sql_file:35 - Failed to execute C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql: no such column: year_published
+2025-02-13 11:28:14.213 | ERROR    | __main__:main:66 - Error during feature queries execution: no such column: year_published
+2025-02-13 11:28:14.213 | INFO     | __main__:main:69 - Database connection closed.
+2025-02-13 11:30:05.035 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:30:05.036 | INFO     | __main__:main:42 - Starting  queries execution...
+2025-02-13 11:30:05.037 | INFO     | __main__:main:58 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:30:05.038 | INFO     | __main__:execute_sql_file:33 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:30:05.038 | INFO     | __main__:execute_sql_file:33 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:30:05.039 | ERROR    | __main__:execute_sql_file:35 - Failed to execute C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql: no such table: author
+2025-02-13 11:30:05.039 | ERROR    | __main__:main:66 - Error during feature queries execution: no such table: author
+2025-02-13 11:30:05.039 | INFO     | __main__:main:69 - Database connection closed.
+2025-02-13 11:30:44.319 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:30:44.320 | INFO     | __main__:main:42 - Starting  queries execution...
+2025-02-13 11:30:44.320 | INFO     | __main__:main:58 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:30:44.322 | INFO     | __main__:execute_sql_file:33 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:30:44.322 | INFO     | __main__:execute_sql_file:33 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:30:44.323 | INFO     | __main__:execute_sql_file:33 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:30:44.323 | INFO     | __main__:execute_sql_file:33 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:30:44.324 | INFO     | __main__:execute_sql_file:33 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:30:44.324 | INFO     | __main__:main:64 - Feature queries execution completed successfully.
+2025-02-13 11:30:44.324 | INFO     | __main__:main:69 - Database connection closed.
+2025-02-13 11:37:28.140 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:37:28.140 | INFO     | __main__:main:45 - Starting  queries execution...
+2025-02-13 11:37:28.140 | INFO     | __main__:main:61 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:37:28.140 | ERROR    | __main__:execute_sql_file:38 - Failed to execute C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql: write() argument must be str, not list
+2025-02-13 11:37:28.140 | ERROR    | __main__:main:69 - Error during feature queries execution: write() argument must be str, not list
+2025-02-13 11:37:28.140 | INFO     | __main__:main:72 - Database connection closed.
+2025-02-13 11:39:20.018 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:39:20.019 | INFO     | __main__:main:45 - Starting  queries execution...
+2025-02-13 11:39:20.019 | INFO     | __main__:main:61 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:39:20.019 | ERROR    | __main__:execute_sql_file:38 - Failed to execute C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql: write() argument must be str, not generator
+2025-02-13 11:39:20.019 | ERROR    | __main__:main:69 - Error during feature queries execution: write() argument must be str, not generator
+2025-02-13 11:39:20.019 | INFO     | __main__:main:72 - Database connection closed.
+2025-02-13 11:41:27.359 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:41:27.359 | INFO     | __main__:main:47 - Starting  queries execution...
+2025-02-13 11:41:27.359 | INFO     | __main__:main:63 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:41:27.359 | INFO     | __main__:execute_sql_file:38 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:41:27.365 | INFO     | __main__:execute_sql_file:38 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:41:27.366 | INFO     | __main__:execute_sql_file:38 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:41:27.367 | INFO     | __main__:execute_sql_file:38 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:41:27.368 | INFO     | __main__:execute_sql_file:38 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:41:27.368 | INFO     | __main__:main:69 - Feature queries execution completed successfully.
+2025-02-13 11:41:27.368 | INFO     | __main__:main:74 - Database connection closed.
+2025-02-13 11:42:25.660 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:42:25.660 | INFO     | __main__:main:48 - Starting  queries execution...
+2025-02-13 11:42:25.660 | INFO     | __main__:main:64 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:42:25.660 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:42:25.660 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:42:25.670 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:42:25.671 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:42:25.672 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:42:25.672 | INFO     | __main__:main:70 - Feature queries execution completed successfully.
+2025-02-13 11:42:25.672 | INFO     | __main__:main:75 - Database connection closed.
+2025-02-13 11:43:58.492 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:43:58.493 | INFO     | __main__:main:48 - Starting  queries execution...
+2025-02-13 11:43:58.494 | INFO     | __main__:main:64 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:43:58.495 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:43:58.496 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:43:58.497 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:43:58.498 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:43:58.499 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:43:58.499 | INFO     | __main__:main:70 - Feature queries execution completed successfully.
+2025-02-13 11:43:58.500 | INFO     | __main__:main:75 - Database connection closed.
+2025-02-13 11:45:28.150 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:45:28.150 | INFO     | __main__:main:48 - Starting  queries execution...
+2025-02-13 11:45:28.150 | INFO     | __main__:main:64 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:45:28.150 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:45:28.165 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:45:28.166 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:45:28.167 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:45:28.168 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:45:28.168 | INFO     | __main__:main:70 - Feature queries execution completed successfully.
+2025-02-13 11:45:28.169 | INFO     | __main__:main:75 - Database connection closed.
+2025-02-13 11:46:48.939 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:46:48.939 | INFO     | __main__:main:48 - Starting  queries execution...
+2025-02-13 11:46:48.939 | INFO     | __main__:main:64 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:46:48.939 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:46:48.939 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:46:48.946 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:46:48.946 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:46:48.947 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:46:48.947 | INFO     | __main__:main:70 - Feature queries execution completed successfully.
+2025-02-13 11:46:48.947 | INFO     | __main__:main:75 - Database connection closed.
+2025-02-13 11:47:20.230 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:47:20.231 | INFO     | __main__:main:48 - Starting  queries execution...
+2025-02-13 11:47:20.232 | INFO     | __main__:main:64 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:47:20.233 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:47:20.235 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:47:20.236 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:47:20.236 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:47:20.237 | INFO     | __main__:execute_sql_file:39 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:47:20.237 | INFO     | __main__:main:70 - Feature queries execution completed successfully.
+2025-02-13 11:47:20.237 | INFO     | __main__:main:75 - Database connection closed.
+2025-02-13 11:48:01.052 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:48:01.052 | INFO     | __main__:main:49 - Starting  queries execution...
+2025-02-13 11:48:01.052 | INFO     | __main__:main:65 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:48:01.052 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:48:01.068 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:48:01.069 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:48:01.070 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:48:01.071 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:48:01.071 | INFO     | __main__:main:71 - Feature queries execution completed successfully.
+2025-02-13 11:48:01.071 | INFO     | __main__:main:76 - Database connection closed.
+2025-02-13 11:49:22.714 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:49:22.714 | INFO     | __main__:main:49 - Starting  queries execution...
+2025-02-13 11:49:22.714 | INFO     | __main__:main:65 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:49:22.714 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:49:22.729 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:49:22.730 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:49:22.731 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:49:22.733 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:49:22.733 | INFO     | __main__:main:71 - Feature queries execution completed successfully.
+2025-02-13 11:49:22.733 | INFO     | __main__:main:76 - Database connection closed.
+2025-02-13 11:50:08.357 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:50:08.357 | INFO     | __main__:main:49 - Starting  queries execution...
+2025-02-13 11:50:08.357 | INFO     | __main__:main:65 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:50:08.357 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:50:08.357 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:50:08.364 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:50:08.365 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:50:08.366 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:50:08.367 | INFO     | __main__:main:71 - Feature queries execution completed successfully.
+2025-02-13 11:50:08.367 | INFO     | __main__:main:76 - Database connection closed.
+2025-02-13 11:51:30.388 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:51:30.389 | INFO     | __main__:main:49 - Starting  queries execution...
+2025-02-13 11:51:30.390 | INFO     | __main__:main:65 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:51:30.391 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:51:30.393 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:51:30.394 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:51:30.396 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:51:30.398 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:51:30.398 | INFO     | __main__:main:71 - Feature queries execution completed successfully.
+2025-02-13 11:51:30.398 | INFO     | __main__:main:76 - Database connection closed.
+2025-02-13 11:51:57.826 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 11:51:57.826 | INFO     | __main__:main:49 - Starting  queries execution...
+2025-02-13 11:51:57.826 | INFO     | __main__:main:65 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 11:51:57.826 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 11:51:57.840 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 11:51:57.841 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 11:51:57.842 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 11:51:57.845 | INFO     | __main__:execute_sql_file:40 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 11:51:57.846 | INFO     | __main__:main:71 - Feature queries execution completed successfully.
+2025-02-13 11:51:57.846 | INFO     | __main__:main:76 - Database connection closed.
+2025-02-13 12:13:13.151 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 12:13:13.151 | INFO     | __main__:main:46 - Starting  queries execution...
+2025-02-13 12:13:13.151 | INFO     | __main__:main:62 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 12:13:13.172 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 12:13:13.173 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 12:13:13.175 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 12:13:13.176 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 12:13:13.176 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 12:13:13.177 | INFO     | __main__:main:68 - Feature queries execution completed successfully.
+2025-02-13 12:13:13.177 | INFO     | __main__:main:73 - Database connection closed.
+2025-02-13 12:13:37.332 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 12:13:37.332 | INFO     | __main__:main:46 - Starting  queries execution...
+2025-02-13 12:13:37.332 | INFO     | __main__:main:62 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 12:13:37.348 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 12:13:37.349 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 12:13:37.350 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 12:13:37.351 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 12:13:37.352 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 12:13:37.352 | INFO     | __main__:main:68 - Feature queries execution completed successfully.
+2025-02-13 12:13:37.352 | INFO     | __main__:main:73 - Database connection closed.
+2025-02-13 12:14:13.452 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 12:14:13.452 | INFO     | __main__:main:46 - Starting  queries execution...
+2025-02-13 12:14:13.452 | INFO     | __main__:main:62 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-02-13 12:14:13.452 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_aggregation.sql
+2025-02-13 12:14:13.452 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_filter.sql
+2025-02-13 12:14:13.464 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_group_by.sql
+2025-02-13 12:14:13.465 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_join.sql
+2025-02-13 12:14:13.467 | INFO     | __main__:execute_sql_file:37 - Executed: C:\Projects\datafun-05-sql\sql_queries_test\query_sorting.sql
+2025-02-13 12:14:13.467 | INFO     | __main__:main:68 - Feature queries execution completed successfully.
+2025-02-13 12:14:13.467 | INFO     | __main__:main:73 - Database connection closed.
