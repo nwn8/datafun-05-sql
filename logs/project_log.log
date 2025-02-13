@@ -6,3 +6,18 @@
 2025-02-10 13:10:44.085 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
 2025-02-10 13:10:44.086 | INFO     | __main__:main:60 - Database setup completed successfully.
 2025-02-10 13:10:44.086 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-13 08:28:16.160 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 08:28:16.161 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-13 08:28:16.161 | ERROR    | __main__:main:46 - Database file not found at C:\Projects\datafun-05-sql\data\project.sqlite3. Ensure the database is created first.
+2025-02-13 08:29:04.326 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 08:29:04.327 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-13 08:29:04.327 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\project.sqlite3
+2025-02-13 08:29:04.334 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\update_records.sql
+2025-02-13 08:29:04.334 | INFO     | __main__:main:60 - Update query execution completed successfully.
+2025-02-13 08:29:04.334 | INFO     | __main__:main:65 - Database connection closed.
+2025-02-13 08:33:54.966 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-02-13 08:33:54.967 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-02-13 08:33:54.967 | INFO     | __main__:main:51 - Connected to database: C:\Projects\datafun-05-sql\project.sqlite3
+2025-02-13 08:33:54.974 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\delete_records.sql
+2025-02-13 08:33:54.974 | INFO     | __main__:main:59 - Delete execution completed successfully.
+2025-02-13 08:33:54.974 | INFO     | __main__:main:64 - Database connection closed.
